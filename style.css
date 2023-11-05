@@ -1,0 +1,145 @@
+
+body, h1, h2, p, ol, ul, li, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #909090;
+}
+
+/* Header Styles */
+header {
+    background-color: rgb(70, 69, 73);
+    color: #fff;
+    padding: 20px;
+}
+
+.student-image img {
+    display: flex;
+    max-width: 160px;
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-left: 43%;
+}
+
+.student-details {
+    font-size: 25px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin-left: 43%;
+}
+
+/* Main Section Styles */
+section {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    /* Styles for tablets and smaller screens */
+    .student-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .student-image img {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Styles for mobile devices */
+    .student-details {
+        font-size: 16px;
+    }
+}
+
+/* Additional Styles */
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+ol{
+    padding-left: 20px;
+}
+ol li{
+    margin: 5px 0;
+
+}
+
+/* Change the color and font size of the "Life Ambition" and "Contribution to Country" sections */
+section:nth-last-child(2), section:last-child {
+    background-color: #f0f0f0;
+    font-size: 16px;
+}
+
+/* Add more specific styles for your lists, links, etc. as needed */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-icons a {
+    margin: 0 5px;
+    color: #f0f0f0;
+}
+
+/* Position your WhatsApp icon to the bottom-right corner */
+.social-icons {
+    
+   margin: 20px;
+   font-size: 40px;
+   
+}
+.Email
+{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #1b1b1b;
+    
+}
+
+.my-float{
+	margin-top:16px;
+}
